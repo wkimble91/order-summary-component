@@ -1,0 +1,246 @@
+html {
+<<<<<<< HEAD
+    /* Variables */
+    --primary-color-1: hsl(225, 100%, 94%);
+    --primary-color-2: hsl(245, 75%, 52%);
+
+    --pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --light-grey: hsl(255, 100%, 97%);
+
+    --font-size: 1.6rem;
+    /* Globals */
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--primary-color-1);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card {
+    font-size: var(--font-size);
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--pale-blue);
+    border-radius: 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__header {
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.card__description {
+    color: var(--desaturated-blue);
+    font-size: 1.8rem;
+    padding: 0 15%;
+    line-height: 2.5rem;
+    margin-top: -2rem;
+}
+
+.card__plan-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grey);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.card__plan-img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 2rem;
+}
+.card__plan-info {
+    flex-basis: 60%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.card__plan-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.card__plan-subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+}
+
+.card__plan-change{
+      margin: 0 2rem;
+}
+
+.card__proceed-btn {
+    background-color: var(--primary-color-2);
+    color: var(--pale-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    margin: 4rem auto 0;
+    cursor: pointer;
+    width: 80%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+  
+  &:hover{
+=======
+  /* Variables */
+  --primary-color-1: hsl(225, 100%, 94%);
+  --primary-color-2: hsl(245, 75%, 52%);
+
+  --pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --light-grey: hsl(255, 100%, 97%);
+
+  --font-size: 1.6rem;
+  /* Globals */
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--primary-color-1);
+  font-family: 'Red Hat Display', sans-serif;
+}
+.card {
+  font-size: var(--font-size);
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--pale-blue);
+  border-radius: 2rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__header {
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.card__description {
+  color: var(--desaturated-blue);
+  font-size: 1.8rem;
+  padding: 0 15%;
+  line-height: 2.5rem;
+  margin-top: -2rem;
+}
+
+.card__plan-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grey);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.card__plan-img {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 2rem;
+}
+.card__plan-info {
+  flex-basis: 60%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.card__plan-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.card__plan-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+.card__plan-change {
+  margin: 0 2rem;
+}
+
+.card__proceed-btn {
+  background-color: var(--primary-color-2);
+  color: var(--pale-blue);
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  margin: 4rem auto 0;
+  cursor: pointer;
+  width: 80%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+
+  &:hover {
+>>>>>>> 4028f29 (Initial)
+    transform: translatey(-4px);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+  }
+}
+
+.card__cancel-link {
+<<<<<<< HEAD
+    color: var(--desaturated-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    margin: 3rem auto;
+    cursor: pointer;
+    width: 80%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+=======
+  color: var(--desaturated-blue);
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  margin: 3rem auto;
+  cursor: pointer;
+  width: 80%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+>>>>>>> 4028f29 (Initial)
+}
